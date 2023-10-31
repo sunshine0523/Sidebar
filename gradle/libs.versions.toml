@@ -1,0 +1,62 @@
+[versions]
+agp = "8.1.1"
+org-jetbrains-kotlin-android = "1.8.10"
+core-ktx = "1.10.1"
+ksp = "1.8.10-1.0.9"
+lifecycle-viewmodel-ktx = "2.6.1"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+appcompat = "1.6.1"
+material = "1.8.0"
+zygote-loader = "3.0"
+magic-library = "1.5"
+rikka-appcompat = "1.6.1"
+rikka-material = "2.7.0"
+hidden-api-refine = "4.3.0"
+room = "2.5.1"
+preference = "1.2.1"
+hidden-api-bypass = "4.3"
+appiconloader = "1.5.0"
+rikka-recyclerview-adapter = "1.3.0"
+rikka-recyclerview-ktx = "1.3.1"
+rikka-borderview = "1.1.0"
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "dev.rikka.rikkax.appcompat", name = "appcompat", version.ref = "rikka-appcompat" }
+material = { group = "dev.rikka.rikkax.material", name = "material", version.ref = "rikka-material" }
+preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preference" }
+
+
+magic-library = { group = "com.github.kr328.magic", name = "library", version.ref = "magic-library"}
+
+hiddenapirefineannotationprocessor = { group = "dev.rikka.tools.refine", name = "annotation-processor", version.ref = "hidden-api-refine"}
+hiddenapirefineannotation = { group = "dev.rikka.tools.refine", name = "annotation", version.ref = "hidden-api-refine"}
+hiddenapirefineruntime = { group = "dev.rikka.tools.refine", name = "runtime", version.ref = "hidden-api-refine"}
+
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room"}
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room"}
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room"}
+
+hiddenapibypass = { module = "org.lsposed.hiddenapibypass:hiddenapibypass", version.ref = "hidden-api-bypass" }
+
+appiconloader = { group = "me.zhanghai.android.appiconloader", name = "appiconloader", version.ref = "appiconloader" }
+
+rikka-recyclerview-adapter = { group = "dev.rikka.rikkax.recyclerview", name = "recyclerview-adapter", version.ref = "rikka-recyclerview-adapter" }
+rikka-recyclerview-ktx = { group = "dev.rikka.rikkax.recyclerview", name = "recyclerview-ktx", version.ref = "rikka-recyclerview-ktx" }
+rikka-borderview = { group = "dev.rikka.rikkax.widget", name = "borderview", version.ref = "rikka-borderview" }
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+zygoteLoader = { id = "com.github.kr328.gradle.zygote", version.ref = "zygote-loader"}
+com-android-library = { id = "com.android.library", version.ref = "agp" }
+hiddenApiRefine = { id = "dev.rikka.tools.refine", version.ref = "hidden-api-refine" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+[bundles]
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mi-Freeform - Sidebar</string>
+    <string name="xposed_description">A sidebar app for Mi-Freeform</string>
+
+    <!--SettingsFragment-->
+    <string name="enable_sideline">Enable</string>
+    <string name="require_package_usage_stats_permission">Please grant Sidebar PackageUsageStats permission</string>
+    <string name="sidebar_app_setting_label">Sidebar App Settings</string>
+    <string name="sidebar_app">Sidebar App</string>
+
+    <!--MainActivity-->
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="dialog_permission_request">Permission Request</string>
+    <string name="dialog_request_permission_message">Sidebar requires Usage Stats permissions to show the recently APPs. Please go to Settings to authorize</string>
+    <string name="enable_sideline_summary">If no response please check Xposed</string>
+
+    <!--SidebarService-->
+    <string name="check_xposed_permission">Mi-Freeform-Sidebar: Please check Xposed permission. Then reboot your device!</string>
+</resources>

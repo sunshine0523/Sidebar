@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">米窗 - 侧边栏</string>
+    <string name="xposed_description">一个为米窗设计的侧边栏软件</string>
+    <string name="enable_sideline">开启侧边栏</string>
+    <string name="require_package_usage_stats_permission">请检查米窗 - 侧边栏的使用情况访问权限</string>
+    <string name="sidebar_app_setting_label">侧边栏应用设置</string>
+    <string name="sidebar_app">侧边栏应用</string>
+    <string name="home">主页</string>
+    <string name="settings">设置</string>
+    <string name="dialog_permission_request">权限申请</string>
+    <string name="dialog_request_permission_message">米窗 - 侧边栏需要使用情况访问权限以访问最近使用的应用，请前往设置界面授权</string>
+    <string name="enable_sideline_summary">如果没有反应请检查侧边栏软件的Xposed权限</string>
+    <string name="check_xposed_permission">米窗-侧边栏：请检查Xposed权限，然后重启设备！</string>
+</resources>

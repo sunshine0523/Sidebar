@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_padding">8dp</dimen>
+    <dimen name="icon_size">50dp</dimen>
+    <dimen name="sidebar_radius">16dp</dimen>
+    <dimen name="item_sidebar_app_height">75dp</dimen>
+    <dimen name="item_sidebar_app_image_size">50dp</dimen>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="true"
+        android:title="@string/enable_sideline"
+        android:summary="@string/enable_sideline_summary"
+        android:key="sideline"
+        android:iconSpaceReserved="true"/>
+
+    <Preference
+        android:title="@string/sidebar_app"
+        android:key="sidebar_app"
+        android:iconSpaceReserved="true"/>
+</PreferenceScreen>
